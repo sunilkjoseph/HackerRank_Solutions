@@ -60,7 +60,6 @@
   - Explanation: 
     The problem involves the Nimble Game, a two-player game played on a line of n squares. Each square contains a number, and players take turns making moves. On a player's turn, they can move any number of squares to the right, starting from the square they are on. The goal is to determine the winner of the game based on the nim-values of the squares.
     The nim-value of a square is the distance from the square to the nearest rightmost square whose number is odd. The nim-value for a square i is defined as nim-value(i) = i - 1 if the number in square i is odd; otherwise, nim-value(i) = 0.
-
     The winner of the Nimble Game can be determined based on the XOR sum of the nim-values of the squares.
     Steps:
     Initialize XOR Sum:
